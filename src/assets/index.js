@@ -38,6 +38,9 @@ import calculator from "./calculator.png";
 import drumMachine from "./drumMachine.png";
 import markdown from "./markdown.png";
 import randomQuotes from "./randomQuotes.png";
+import weatherapp from "./weatherapp.png";
+import next from "./next.png";
+import rest from "./rest.webp";
 
 export {
   logo,
@@ -76,4 +79,7 @@ export {
   python,
   cplusplus,
   java,
+  weatherapp,
+  next,
+  rest,
 };

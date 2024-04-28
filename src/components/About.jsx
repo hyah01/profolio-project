@@ -36,8 +36,8 @@ const About = () => {
       <motion.p variants={fadeIn("","",0.1, 1)} className=' text-secondary text-[17px] max-w-3xl leading-[30px]'>
       I am a recent graduate with knowledge in Python,
       C++, Java, and JavaScript. I also have some 
-      experience using frameworks like React, Bootstrap,
-      and JQuery. I am a quick learner and actively 
+      experience using Frontend frameworks like React,NextJS, 
+      Bootstrap, and JQuery. I am a quick learner and actively 
       seek new technology to improve myself and keep 
       up-to-date with the technologies I already know. 
       I work well with others on multidisciplinary team 

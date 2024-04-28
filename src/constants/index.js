@@ -32,6 +32,9 @@ import {
     python,
     cplusplus,
     java,
+    weatherapp,
+    next,
+    rest,
   } from "../assets";
   
   export const navLinks = [
@@ -113,6 +116,14 @@ import {
       name: "GitHub",
       icon: github,
     },
+    {
+      name: "Next JS",
+      icon: next,
+    },
+    {
+      name: "Rest API",
+      icon: rest,
+    },
     
   ];
   
@@ -138,7 +149,7 @@ import {
       iconBg: "white",
       date: "March 2022",
       points: [
-        "Jypyter Notebook, Python 3",
+        "Jupyter Notebook, Python 3",
         "Collaborated with a team of five to research and gather raw data from a multitude of sources to develop a report about correlations between age groups and their anime genre preferences.",
         "Performed data wrangling and cleaned data to perform exploratory analysis in finding relationships between distributions.",
         "Performed t-tests, linear regression models (predictive models and algorithms), and built various data visualizations such as (line graphs, scatter plots, bar charts, and histograms.",
@@ -159,52 +170,101 @@ import {
         "Effectively implements knowledge learned from the course into styling and coding the final project.",
       ],
     },
+    {
+      title: "Drum Machine Project",
+      company_name: "Personal Project",
+      icon: reactjs,
+      iconBg: "white",
+      date: "November 2023",
+      points: [
+        "React, JavaScript, HTML/CSS, Bootstrap",
+        "Created and styled a website that offers users a mini drum set with 9 different buttons that play a sound when pressed or clicked. It has 2 settings for 2 different types of sounds, a volume slider as well as a power button.",
+        "Utilized React and Javascript to create an interactive website while styling the website with reboot and CSS",
+      ],
+    },
+    {
+      title: "Calculator Project",
+      company_name: "Personal Project",
+      icon: reactjs,
+      iconBg: "white",
+      date: "December 2023",
+      points: [
+        "React, JavaScript, HTML/CSS",
+        "Created and styled a website that offers users a functioning calculator that can compute basic arithmetics such as addition, subtraction, multiplication and division",
+        "Made using multiple components and handlers to execute the math needed to provides the correct answer bases on the inputs",
+        "Utilized React and Javascript to create an interactive website while styling the website CSS",
+      ],
+    },
+    {
+      title: "Weather Application Project",
+      company_name: "Personal Project",
+      icon: next,
+      iconBg: "white",
+      date: "April 2024",
+      points: [
+        "NextJS, JavaScript, HTML/CSS, Tailwind CSS, Vercel, API, Tomorrow.io",
+        "Created and styled a website based on a weather app that provides users with real time updated weather forecast for the next 24 hours and 7 days",
+        "The application provides the name, temperature, weather condition as well as weather condition images",
+        "It utilizes API calls into Tomorrow.io's DataBase, in order to retrieve data to provides for the website to display correct information based on user input of their location name or Zipcode",
+        "Utilized NextJS and Javascript to create an interactive website while styling the website CSS",
+      ],
+    },
     
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //   testimonial:
+    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //   name: "Sara Lee",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
   ];
   
   const projects = [
+    {
+      name: "WeatherApp",
+      description:
+        "Website of a Weather Forecast App that display current weather, temperature, weather condition and images. Realtime forecast for the next 24 hours, 7 days forecast",
+      tags: [
+        {
+          name: "NextJS",
+          color: "bg-gradient-to-r from-stone-300 to-stone-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "CSS",
+          color: "bg-gradient-to-r from-sky-300 to-blue-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "Javascript",
+          color: "bg-gradient-to-r from-lime-200 to-amber-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "REST API",
+          color: "bg-gradient-to-r from-sky-300 to-cyan-400 text-transparent bg-clip-text",
+        },
+      ],
+      image: weatherapp,
+      source_code_link: 'https://github.com/hyah01/WeatherApp/',
+      demo_code_link: 'https://weatherapp-bice-alpha.vercel.app',
+    },
     {
       name: "Calculator",
       description:
         "Website version of a functioning basic calculator.",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "bg-gradient-to-r from-blue-700 to-indigo-200 text-transparent bg-clip-text",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "bg-gradient-to-r from-sky-300 to-blue-500 text-transparent bg-clip-text",
         },
         {
-          name: "javascript",
+          name: "Javascript",
           color: "bg-gradient-to-r from-lime-200 to-amber-500 text-transparent bg-clip-text",
         },
       ],
@@ -218,19 +278,19 @@ import {
         "Website version of a drum machine with functioning on/off button, 18 different sound keys split across 2 settings and a volume slider ",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "bg-gradient-to-r from-blue-700 to-indigo-200 text-transparent bg-clip-text",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "bg-gradient-to-r from-sky-300 to-blue-500 text-transparent bg-clip-text",
         },
         {
-          name: "javascript",
+          name: "Javascript",
           color: "bg-gradient-to-r from-lime-200 to-amber-500 text-transparent bg-clip-text",
         },
         {
-          name: "bootStrap",
+          name: "BootStrap",
           color: "bg-gradient-to-r from-violet-700 to-fuchsia-400 text-transparent bg-clip-text",
         },
       ],
@@ -244,15 +304,15 @@ import {
         "Website of a Markdown Previewer that markup language with plain text formatting syntax ",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "bg-gradient-to-r from-blue-700 to-indigo-200 text-transparent bg-clip-text",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "bg-gradient-to-r from-sky-300 to-blue-500 text-transparent bg-clip-text",
         },
         {
-          name: "javascript",
+          name: "Javascript",
           color: "bg-gradient-to-r from-lime-200 to-amber-500 text-transparent bg-clip-text",
         },
       ],
