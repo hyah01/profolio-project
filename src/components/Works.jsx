@@ -49,13 +49,13 @@ const Works = () => {
           <div className='w-1 sm:h-80 h-40 bg-gradient-to-b from-[#1e90ff]'/>
         </div>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>my front end projects</p>
-        <h2 className={styles.sectionHeadText}>Front End Projects</h2>
+        <p className={styles.sectionSubText}>My projects</p>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'> 
-          These are my Front End projects showcasing my skills and experience.
+          These are my projects showcasing my skills and experience.
           They also show case which technologies I used in each project to show case my understanding of them.
           Each project cards are links to the code live demos and the github
           icon on the top right of each project are links to the code repositories.

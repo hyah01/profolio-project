@@ -8,19 +8,12 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     threejs,
-    drum,
     jupyter,
     openGL,
     randomQuotes,
@@ -35,6 +28,16 @@ import {
     weatherapp,
     next,
     rest,
+    angular,
+    mysql,
+    spring,
+    genspark,
+    todo,
+    musicplayer,
+    microservice,
+    goblin,
+    tictactoe,
+    snakegame
   } from "../assets";
   
   export const navLinks = [
@@ -97,131 +100,134 @@ import {
       icon: javascript,
     },
     {
+      name: "TypeScript",
+      icon: typescript
+    },
+    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
-    {
-      name: "GitHub",
-      icon: github,
     },
     {
       name: "Next JS",
       icon: next,
     },
     {
+      name: "Angular JS",
+      icon: angular
+    },
+    {
       name: "Rest API",
       icon: rest,
     },
+    {
+      name: "Spring",
+      icon: spring
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb
+    },
+    {
+      name: "MySQL",
+      icon: mysql
+    },
+    {
+      name: "Docker",
+      icon: docker
+    }
     
   ];
   
   const experiences = [
     // Example
+    {
+      title: "Full Stack Java Developer",
+      company_name: "Genspark",
+      icon: genspark,
+      iconBg: "#383E56",
+      date: "May 2023 - Present",
+      points: [
+        "Executed assignments leveraging foundational Java concepts encompassing Loops, Arrays, Collections, Classes, Object-Oriented Programming (OOP), Exceptions, IO Files, and Functional Programming principles.", 
+        "Applied Test Driven Development (TDD) methodologies to ensure the creation of robust, maintainable code.",
+        "Developed diverse projects including 'Humans vs Goblins' and a Simple Slot Machine application, employing Java and integrating various Java concepts.",
+        "Engineered the backend of an application utilizing Java, Spring Boot, and Hibernate to establish seamless connectivity with a MySQL database.", 
+        "Explored TypeScript fundamentals, covering Basic Types, Type Annotations and Inference, Functions, Interfaces, Classes, Generics, Modules, Namespaces, and Decorators." ,
+        "Engaged in foundational Angular Development tasks, encompassing Components, Templates and Data Binding, Directives, Services and Dependency Injection, Modules, Routing, Forms, HTTP Client, Pipes, and RxJS Basics." ,
+        "Orchestrated the development of a comprehensive Full Stack Employee Management System using Java, Spring Boot, Hibernate, MySQL, and Angular."
+
+      ],
+    },
+
     // {
-    //   title: "React.js Developer",
-    //   company_name: "Starbucks",
-    //   icon: starbucks,
-    //   iconBg: "#383E56",
-    //   date: "March 2020 - April 2021",
+    //   title: "Anime Genre Data Collection and Analysis Project",
+    //   company_name: "UCSD Class Project",
+    //   icon: jupyter,
+    //   iconBg: "white",
+    //   date: "March 2022",
     //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //     "Jupyter Notebook, Python 3",
+    //     "Collaborated with a team of five to research and gather raw data from a multitude of sources to develop a report about correlations between age groups and their anime genre preferences.",
+    //     "Performed data wrangling and cleaned data to perform exploratory analysis in finding relationships between distributions.",
+    //     "Performed t-tests, linear regression models (predictive models and algorithms), and built various data visualizations such as (line graphs, scatter plots, bar charts, and histograms.",
+    //     "Coordinated and co-led team members with the distribution and scope of the project.",
     //   ],
     // },
-    {
-      title: "Anime Genre Data Collection and Analysis Project",
-      company_name: "UCSD Class Project",
-      icon: jupyter,
-      iconBg: "white",
-      date: "March 2022",
-      points: [
-        "Jupyter Notebook, Python 3",
-        "Collaborated with a team of five to research and gather raw data from a multitude of sources to develop a report about correlations between age groups and their anime genre preferences.",
-        "Performed data wrangling and cleaned data to perform exploratory analysis in finding relationships between distributions.",
-        "Performed t-tests, linear regression models (predictive models and algorithms), and built various data visualizations such as (line graphs, scatter plots, bar charts, and histograms.",
-        "Coordinated and co-led team members with the distribution and scope of the project.",
-      ],
-    },
-    {
-      title: "Modern Room Final Project",
-      company_name: "UCSD Class Project",
-      icon: openGL,
-      iconBg: "white",
-      date: "December 2022",
-      points: [
-        "C++, OpenGL",
-        "Designed and created a significant OpenGL program demonstrating an understanding of technical, artistic, and creative merits.",
-        "Utilized various OpenGL concepts such as homogeneous coordinates, perspective, Phong lighting and Cook-Torrance lighting, Bresenham algorithm, texture mapping, Bézier curves, and a multitude of transformations and interpolation.",
-        "Applied C++ and mathematic knowledge to map out areas for lighting and object modeling.",
-        "Effectively implements knowledge learned from the course into styling and coding the final project.",
-      ],
-    },
-    {
-      title: "Drum Machine Project",
-      company_name: "Personal Project",
-      icon: reactjs,
-      iconBg: "white",
-      date: "November 2023",
-      points: [
-        "React, JavaScript, HTML/CSS, Bootstrap",
-        "Created and styled a website that offers users a mini drum set with 9 different buttons that play a sound when pressed or clicked. It has 2 settings for 2 different types of sounds, a volume slider as well as a power button.",
-        "Utilized React and Javascript to create an interactive website while styling the website with reboot and CSS",
-      ],
-    },
-    {
-      title: "Calculator Project",
-      company_name: "Personal Project",
-      icon: reactjs,
-      iconBg: "white",
-      date: "December 2023",
-      points: [
-        "React, JavaScript, HTML/CSS",
-        "Created and styled a website that offers users a functioning calculator that can compute basic arithmetics such as addition, subtraction, multiplication and division",
-        "Made using multiple components and handlers to execute the math needed to provides the correct answer bases on the inputs",
-        "Utilized React and Javascript to create an interactive website while styling the website CSS",
-      ],
-    },
-    {
-      title: "Weather Application Project",
-      company_name: "Personal Project",
-      icon: next,
-      iconBg: "white",
-      date: "April 2024",
-      points: [
-        "NextJS, JavaScript, HTML/CSS, Tailwind CSS, Vercel, API, Tomorrow.io",
-        "Created and styled a website based on a weather app that provides users with real time updated weather forecast for the next 24 hours and 7 days",
-        "The application provides the name, temperature, weather condition as well as weather condition images",
-        "It utilizes API calls into Tomorrow.io's DataBase, in order to retrieve data to provides for the website to display correct information based on user input of their location name or Zipcode",
-        "Utilized NextJS and Javascript to create an interactive website while styling the website CSS",
-      ],
-    },
+    // {
+    //   title: "Modern Room Final Project",
+    //   company_name: "UCSD Class Project",
+    //   icon: openGL,
+    //   iconBg: "white",
+    //   date: "December 2022",
+    //   points: [
+    //     "C++, OpenGL",
+    //     "Designed and created a significant OpenGL program demonstrating an understanding of technical, artistic, and creative merits.",
+    //     "Utilized various OpenGL concepts such as homogeneous coordinates, perspective, Phong lighting and Cook-Torrance lighting, Bresenham algorithm, texture mapping, Bézier curves, and a multitude of transformations and interpolation.",
+    //     "Applied C++ and mathematic knowledge to map out areas for lighting and object modeling.",
+    //     "Effectively implements knowledge learned from the course into styling and coding the final project.",
+    //   ],
+    // },
+    // {
+    //   title: "Drum Machine Project",
+    //   company_name: "Personal Project",
+    //   icon: reactjs,
+    //   iconBg: "white",
+    //   date: "November 2023",
+    //   points: [
+    //     "React, JavaScript, HTML/CSS, Bootstrap",
+    //     "Created and styled a website that offers users a mini drum set with 9 different buttons that play a sound when pressed or clicked. It has 2 settings for 2 different types of sounds, a volume slider as well as a power button.",
+    //     "Utilized React and Javascript to create an interactive website while styling the website with reboot and CSS",
+    //   ],
+    // },
+    // {
+    //   title: "Calculator Project",
+    //   company_name: "Personal Project",
+    //   icon: reactjs,
+    //   iconBg: "white",
+    //   date: "December 2023",
+    //   points: [
+    //     "React, JavaScript, HTML/CSS",
+    //     "Created and styled a website that offers users a functioning calculator that can compute basic arithmetics such as addition, subtraction, multiplication and division",
+    //     "Made using multiple components and handlers to execute the math needed to provides the correct answer bases on the inputs",
+    //     "Utilized React and Javascript to create an interactive website while styling the website CSS",
+    //   ],
+    // },
+    // {
+    //   title: "Weather Application Project",
+    //   company_name: "Personal Project",
+    //   icon: next,
+    //   iconBg: "white",
+    //   date: "April 2024",
+    //   points: [
+    //     "NextJS, JavaScript, HTML/CSS, Tailwind CSS, Vercel, API, Tomorrow.io",
+    //     "Created and styled a website based on a weather app that provides users with real time updated weather forecast for the next 24 hours and 7 days",
+    //     "The application provides the name, temperature, weather condition as well as weather condition images",
+    //     "It utilizes API calls into Tomorrow.io's DataBase, in order to retrieve data to provides for the website to display correct information based on user input of their location name or Zipcode",
+    //     "Utilized NextJS and Javascript to create an interactive website while styling the website CSS",
+    //   ],
+    // },
     
   ];
   
-  const testimonials = [
-    // {
-    //   testimonial:
-    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    //   name: "Sara Lee",
-    //   designation: "CFO",
-    //   company: "Acme Co",
-    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
-    // },
-  ];
   
   const projects = [
     {
@@ -234,15 +240,15 @@ import {
           color: "bg-gradient-to-r from-stone-300 to-stone-500 text-transparent bg-clip-text",
         },
         {
-          name: "CSS",
-          color: "bg-gradient-to-r from-sky-300 to-blue-500 text-transparent bg-clip-text",
+          name: "Tomorrow API",
+          color: "bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text",
         },
         {
           name: "Javascript",
           color: "bg-gradient-to-r from-lime-200 to-amber-500 text-transparent bg-clip-text",
         },
         {
-          name: "REST API",
+          name: "REST",
           color: "bg-gradient-to-r from-sky-300 to-cyan-400 text-transparent bg-clip-text",
         },
       ],
@@ -342,6 +348,147 @@ import {
       source_code_link: 'https://github.com/hyah01/randomQuoteMachine',
       demo_code_link: 'https://hyah01.github.io/randomQuoteMachine/',
     },
+    {
+      name: "To-Do List",
+      description:
+        "A To-Do Check list webs application that ultilize local storage to store user's todos",
+      tags: [
+        {
+          name: "angular",
+          color: "bg-gradient-to-r from-red-600 via-pink-600 to-violet-600 text-transparent bg-clip-text",
+        },
+        {
+          name: "css",
+          color: "bg-gradient-to-r from-sky-300 to-blue-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "typescript",
+          color: "bg-gradient-to-r from-blue-500 to-cyan-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "http-client",
+          color: "bg-gradient-to-r from-teal-400 to-green-500 text-transparent bg-clip-text",
+        }
+      ],
+      image: todo,
+      source_code_link: 'https://github.com/hyah01/day4-Todo',
+      demo_code_link: 'https://github.com/hyah01/day4-Todo',
+    },
+    {
+      name: "Music Player",
+      description:
+        "Utilize the Deezer API to fetch song and integrate them into a web application. Users can search for songs, add to a playlist, and listen to music directly within the application.",
+      tags: [
+        {
+          name: "angular",
+          color: "bg-gradient-to-r from-red-600 via-pink-600 to-violet-600 text-transparent bg-clip-text",
+        },
+        {
+          name: "Deezer API",
+          color: "bg-gradient-to-r from-violet-600 via-red-500 to-violet-600 text-transparent bg-clip-text",
+        },
+        {
+          name: "typescript",
+          color: "bg-gradient-to-r from-blue-500 to-cyan-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "REST",
+          color: "bg-gradient-to-r from-sky-300 to-cyan-400 text-transparent bg-clip-text",
+        },
+      ],
+      image: musicplayer,
+      source_code_link: 'https://github.com/hyah01/musicPlayer',
+      demo_code_link: 'https://github.com/hyah01/musicPlayer',
+    },
+    {
+      name: "Book Management",
+      description:
+       "Spring Boot microservices with Eureka for seamless integration. API gateway, integrated with Zipkin, ensures streamlined request routing and robust performance monitoring.",
+      tags: [
+        {
+          name: "Spring",
+          color: "bg-gradient-to-r from-green-400 to-green-600 text-transparent bg-clip-text",
+        },
+        {
+          name: "Micro Service",
+          color: "bg-gradient-to-r from-yellow-400 to-orange-400 text-transparent bg-clip-text",
+        },
+        {
+          name: "Collab",
+          color: "bg-gradient-to-r from-red-400 to-pink-400 text-transparent bg-clip-text",
+        },
+        {
+          name: "MySQL",
+          color: "bg-gradient-to-r from-blue-400 to-orange-400 text-transparent bg-clip-text",
+        },
+
+      ],
+      image: microservice,
+      source_code_link: 'https://github.com/hyah01/micro-servic-pro',
+      demo_code_link: 'https://github.com/hyah01/micro-servic-pro',
+    },
+    {
+      name: "Human Vs Goblin",
+      description:
+       "Turn base Game Made using Java and JavaSwing, featured turn base combat, inventory, item drops, monster",
+      tags: [
+        {
+          name: "Java",
+          color: "bg-gradient-to-r from-orange-500 to-red-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "Java Swing",
+          color: "bg-gradient-to-r from-purple-500 to-indigo-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "Collaboration",
+          color: "bg-gradient-to-r from-red-400 to-pink-400 text-transparent bg-clip-text",
+        }
+
+      ],
+      image: goblin,
+      source_code_link: 'https://github.com/hyah01/humans-vs-goblins',
+      demo_code_link: 'https://github.com/hyah01/humans-vs-goblins',
+    },
+    {
+      name: "Snake Game",
+      description:
+       "Snake game with multiple difficulties, randomly generated obstacles, powerups",
+      tags: [
+        {
+          name: "Java",
+          color: "bg-gradient-to-r from-orange-500 to-red-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "Java Swing",
+          color: "bg-gradient-to-r from-purple-500 to-indigo-500 text-transparent bg-clip-text",
+        },
+        {
+          name: "Collaboration",
+          color: "bg-gradient-to-r from-red-400 to-pink-400 text-transparent bg-clip-text",
+        }
+
+      ],
+      image: snakegame,
+      source_code_link: 'https://github.com/hyah01/Snake_game',
+      demo_code_link: 'https://github.com/hyah01/Snake_game',
+    },
+    {
+      name: "Tic Tac Toe",
+      description:
+       "Command Line Tic Tac Toe game with timemode, x by x grid, AI opponent, basic algorithm that try to beat the player and stop them from winning",
+      tags: [
+        {
+          name: "Java",
+          color: "bg-gradient-to-r from-orange-500 to-red-500 text-transparent bg-clip-text",
+        }
+
+      ],
+      image: tictactoe,
+      source_code_link: 'https://github.com/hyah01/GenSpark-Projects/tree/main/TicTacToe',
+      demo_code_link: 'https://github.com/hyah01/GenSpark-Projects/tree/main/TicTacToe',
+    },
+    
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

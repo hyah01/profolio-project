@@ -2,7 +2,6 @@ import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
@@ -34,17 +33,11 @@ const About = () => {
     
     <div className={`${styles.paddingX} inset-0 max-w-7xl mx-auto  flex flex-col items-end`}>
       <motion.p variants={fadeIn("","",0.1, 1)} className=' text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      I am a recent graduate with knowledge in Python,
-      C++, Java, and JavaScript. I also have some 
-      experience using Frontend frameworks like React,NextJS, 
-      Bootstrap, and JQuery. I am a quick learner and actively 
-      seek new technology to improve myself and keep 
-      up-to-date with the technologies I already know. 
-      I work well with others on multidisciplinary team 
-      projects and strive to find creative solutions to 
-      any problems that arise while keeping code clean 
-      and concise. I am eager to apply my knowledge in 
-      my future work and continue to learn and develop.
+      I graduated from UCSD with a bachelor's degree in Mathematics-Computer Science. Currently, I am enrolled in a program at GenSpark, 
+      where I am training to become a Full Stack Developer. Throughout my time at GenSpark, I have developed a wide range of skills, including:
+      Object-Orientated Programing (OOP), Collaboration, Databases, Spring Backend, Front-End Technologies, API development.
+      These experiences have equipped me with a solid foundation in both frontend and backend development, as well as the soft skills necessary to thrive in a collaborative environment.
+
       </motion.p>
     </div>
     {/* <div className='mt-20 flex flex-wrap gap-10'>

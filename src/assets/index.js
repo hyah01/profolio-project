@@ -24,6 +24,10 @@ import bootstrap from "./tech/bootstrap.png";
 import python from "./tech/python.png";
 import cplusplus from "./tech/c++.png";
 import java from "./tech/java.png";
+import mysql from "./tech/mysql.png";
+import angular from "./tech/angular.png";
+import spring from "./tech/spring.svg";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -32,6 +36,9 @@ import tesla from "./company/tesla.png";
 import drum from "./company/drum.png";
 import jupyter from "./company/jupyter.png";
 import openGL from "./company/openGL.jpg";
+import genspark from "./company/genspark.webp";
+import next from "./next.png";
+import rest from "./rest.webp";
 
 
 import calculator from "./calculator.png";
@@ -39,8 +46,15 @@ import drumMachine from "./drumMachine.png";
 import markdown from "./markdown.png";
 import randomQuotes from "./randomQuotes.png";
 import weatherapp from "./weatherapp.png";
-import next from "./next.png";
-import rest from "./rest.webp";
+import goblin from "./goblin.png";
+import snakegame from "./snakegame.png";
+import tictactoe from "./tictactoe.png";
+import todo from "./todo.png";
+import microservice from "./microservice.png";
+import musicplayer from "./musicplayer.png";
+
+
+import self from "./self.jpg";
 
 export {
   logo,
@@ -82,4 +96,15 @@ export {
   weatherapp,
   next,
   rest,
+  mysql,
+  spring,
+  angular,
+  genspark,
+  self,
+  goblin,
+  snakegame,
+  tictactoe,
+  todo,
+  microservice,
+  musicplayer,
 };
